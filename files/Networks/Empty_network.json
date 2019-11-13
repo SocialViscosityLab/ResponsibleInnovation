@@ -9,67 +9,78 @@
           "id": 0,
           "nodeLabel": "Impact of manufacturing & consumption",
           "nodeDescription": "The social and environmental impact of extracting and transforming raw materials to produce goods. It also takes into account the impact of transporting and making the offering available in remote markets for mass consumption.",
-          "polarity": "RIGHT"
+          "polarity": "RIGHT",
+          "pajekIndex": 1
         },
         {
           "id": 1,
           "nodeLabel": "Controversiality of truth",
           "nodeDescription": "Post-truth: relating to or denoting circumstances in which objective facts are less influential in shaping public opinion than appeals to emotion and personal belief. Source: Oxford.",
-          "polarity": "RIGHT"
+          "polarity": "RIGHT",
+          "pajekIndex": 2
         },
         {
           "id": 2,
           "nodeLabel": "Global warming and climate change",
           "nodeDescription": "Global warming is the long-term rise in the average temperature of the Earth's climate system, an aspect of current climate change shown by temperature measurements and by multiple effects of the warming. Source: Wikipedia.",
-          "polarity": "RIGHT"
+          "polarity": "RIGHT",
+          "pajekIndex": 3
         },
         {
           "id": 3,
           "nodeLabel": "Sustainable urban sociality",
           "nodeDescription": "Long-lasting conviviality in urban settings promoted by positive social interactions and recursive encounters that create virtuous bonds over generations.",
-          "polarity": "RIGHT"
+          "polarity": "RIGHT",
+          "pajekIndex": 4
         },
         {
           "id": 4,
           "nodeLabel": "Respect of beliefs",
           "nodeDescription": "The beliefs can be religious, philosophical, political, ideological, or a combination of these. Disrespect for people's beliefs or cultural traditions such as dressing style or natural methods of healing can cause friction that might scalate to violent conflicts.",
-          "polarity": "RIGHT"
+          "polarity": "RIGHT",
+          "pajekIndex": 5
         },
         {
           "id": 5,
           "nodeLabel": "Commodification and exploitation",
           "nodeDescription": "Within a capitalist economic system, Commodification is the transformation of goods, services, ideas and people into commodities or objects of trade. A commodity at its most basic, according to Arjun Appadurai, is anything intended for exchange, or any object of economic value. Source: Wikipedia",
-          "polarity": "RIGHT"
+          "polarity": "RIGHT",
+          "pajekIndex": 6
         },
         {
           "id": 6,
           "nodeLabel": "Reduction of agency",
           "nodeDescription": "One's independent capability or ability to act on one's will. This ability is affected by the cognitive belief structure which one has formed through one's experiences, and the perceptions held by the society and the individual, of the structures and circumstances of the environment one is in and the position they are born into. Disagreement on the extent of one's agency often causes conflict between parties. Source: Wikipedia",
-          "polarity": "RIGHT"
+          "polarity": "RIGHT",
+          "pajekIndex": 7
         },
         {
           "id": 7,
           "nodeLabel": "Imbalance of power",
           "nodeDescription": "Individuals or groups with equal rights instead of keeping a balanced relationship end up in subordination, perpetuating hierarchical structures.",
-          "polarity": "RIGHT"
+          "polarity": "RIGHT",
+          "pajekIndex": 8
         },
         {
           "id": 8,
           "nodeLabel": "Subjectification & stigmatization",
           "nodeDescription": "Social stigma is the disapproval of, or discrimination against, a person based on perceivable social characteristics that serve to distinguish them from other members of a society. Social stigmas are commonly related to culture, gender, race, intelligence and health. Source: Wikipedia",
-          "polarity": "RIGHT"
+          "polarity": "RIGHT",
+          "pajekIndex": 9
         },
         {
           "id": 9,
           "nodeLabel": "Opacity of accessibility",
           "nodeDescription": "Accessibility can be viewed as the ability to access and benefit from some system or entity. The concept focuses on enabling access for people with disabilities, or special needs, or enabling access through the use of assistive technology; however, research and development in accessibility brings benefits to everyone. Source: Wikipedia",
-          "polarity": "RIGHT"
+          "polarity": "RIGHT",
+          "pajekIndex": 10
         },
         {
           "id": 10,
           "nodeLabel": "Narrow social mobility and inequity",
           "nodeDescription": "Social mobility is defined as the movement of individuals, families, households, or other categories of people within or between layers or tiers in an open system of social stratification. Open stratification systems are those in which at least some value is given to achieved status characteristics in a society. The movement can be in a downward or upward direction. Social mobility is any change in social position. Source: Wikipedia",
-          "polarity": "RIGHT"
+          "polarity": "RIGHT",
+          "pajekIndex": 11
         }
       ]
     },
@@ -82,55 +93,64 @@
           "id": 0,
           "nodeLabel": "Sustainability and conservation",
           "nodeDescription": "The process of people maintaining change in a balanced environment, in which the exploitation of resources, the direction of investments, the orientation of technological development and institutional change are all in harmony and enhance both current and future potential to meet human needs and aspirations. Source : Wikipedia",
-          "polarity": "BOTH"
+          "polarity": "BOTH",
+          "pajekIndex": 12
         },
         {
           "id": 1,
           "nodeLabel": "Ecology",
           "nodeDescription": "The branch of biology which studies the interactions among organisms and their environment. Objects of study include interactions of organisms that include biotic and abiotic components of their environment. Topics of interest include the biodiversity, distribution, biomass, and populations of organisms, as well as cooperation and competition within and between species. Source: Wikipedia",
-          "polarity": "BOTH"
+          "polarity": "BOTH",
+          "pajekIndex": 13
         },
         {
           "id": 2,
           "nodeLabel": "Urban social practices",
           "nodeDescription": "Social practice is a theory within psychology that seeks to determine the link between practice and context within social situations. Emphasized as a commitment to change, social practice occurs in two forms: activity and inquiry. Most often applied within the context of human development, social practice involves knowledge production and the theorization and analysis of both institutional and intervention practices. Source: Wikipedia",
-          "polarity": "BOTH"
+          "polarity": "BOTH",
+          "pajekIndex": 14
         },
         {
           "id": 3,
           "nodeLabel": "Ethics, morals and values",
           "nodeDescription": "Ethics or moral philosophy is a branch of philosophy that involves systematizing, defending, and recommending concepts of right and wrong conduct. A value denotes the degree of importance of some thing or action, with the aim of determining what actions are best to do or what way is best to live. Source: Wikipedia.",
-          "polarity": "BOTH"
+          "polarity": "BOTH",
+          "pajekIndex": 15
         },
         {
           "id": 4,
           "nodeLabel": "Honesty and trust",
           "nodeDescription": "Honesty is a facet of moral character that connotes positive and virtuous attributes such as integrity, truthfulness, straightforwardness, including straightforwardness of conduct, along with the absence of lying, cheating, theft. It implies trust between parties and the risk of failure or harm to the trustor if the trustee will not behave as desired. Source: Wikipedia",
-          "polarity": "BOTH"
+          "polarity": "BOTH",
+          "pajekIndex": 16
         },
         {
           "id": 5,
           "nodeLabel": "Justice",
           "nodeDescription": "Justice includes both the attainment of that which is just and the philosophical discussion of that which is just. The concept of justice [...] include[s] the concepts of moral correctness based on ethics, rationality, law, religion, equity and fairness. Often, the general discussion of justice is divided into the realm of social justice [...], and, procedural justice. Source: Wikipedia",
-          "polarity": "BOTH"
+          "polarity": "BOTH",
+          "pajekIndex": 17
         },
         {
           "id": 6,
           "nodeLabel": "Identity",
           "nodeDescription": "A person's identity is defined as the totality of one's self-construal, in which how one construes oneself in the present expresses the continuity between how one construes oneself as one was in the past and how one construes oneself as one aspires to be in the future. Some kinds of identity: ethnic, gender, racial, religious, ocupational...etc. Source: Wikipedia",
-          "polarity": "BOTH"
+          "polarity": "BOTH",
+          "pajekIndex": 18
         },
         {
           "id": 7,
           "nodeLabel": "Infrastructures",
           "nodeDescription": "The term infrastructure evokes vast sets of collective equipment necessary to human activities, such as buildings, roads, bridges, rail tracks, channels, ports, communications networks. Beyond bricks, mortar, pipes or wires, infrastructure also encompasses more abstract entities, such as protocols (human and computer), standards, and memory. Source: Toward Information Infrastructure Studies. Bowker, Baker, Millerand, Ribes",
-          "polarity": "BOTH"
+          "polarity": "BOTH",
+          "pajekIndex": 19
         },
         {
           "id": 8,
           "nodeLabel": "Well-being",
           "nodeDescription": "According to Naci and Ioannidis, \"Wellness refers to diverse and interconnected dimensions of physical, mental, and social well-being that extend beyond the traditional definition of health. It includes choices and activities aimed at achieving physical vitality, mental alacrity, social satisfaction, a sense of accomplishment, and personal fulfillment\". Source: Wikipedia",
-          "polarity": "BOTH"
+          "polarity": "BOTH",
+          "pajekIndex": 20
         }
       ]
     },
@@ -143,73 +163,85 @@
           "id": 0,
           "nodeLabel": "Sytems thinking",
           "nodeDescription": "Systems theory provided a solid framework to analyze systems by identifying functional elements and tracking their relationships, and by instantiating modular architectures from abstract systems. For designers, modular architectures permit a system to be divided into more manageable parts that can be developed, produced and modified relatively independently. Source: From modularity ot emergence. Chen & Crilly",
-          "polarity": "BOTH"
+          "polarity": "BOTH",
+          "pajekIndex": 21
         },
         {
           "id": 1,
           "nodeLabel": "Ethnography",
           "nodeDescription": "The systematic study of people and cultures. It is designed to explore cultural phenomena where the researcher observes society from the point of view of the subject of the study. As a method of data collection, ethnography entails examining the behaviour of the participants in a certain specific social situation and also understanding their interpretation of such behaviour. Source: Wikipedia.",
-          "polarity": "BOTH"
+          "polarity": "BOTH",
+          "pajekIndex": 22
         },
         {
           "id": 2,
           "nodeLabel": "Ethnomethodology",
           "nodeDescription": "The ethnomethodological interest is in the methods and practices of the production and maintenance of this social order. Ethnomethodology attempts to create classifications of the social actions of individuals within groups through drawing on the experience of the groups directly, without imposing on the setting the opinions of the researcher with regards to social order. Source: Wikipedia",
-          "polarity": "BOTH"
+          "polarity": "BOTH",
+          "pajekIndex": 23
         },
         {
           "id": 3,
           "nodeLabel": "Complexity and emergence",
           "nodeDescription": "Emergence occurs when an entity is observed to have properties its parts do not have on their own. These properties or behaviors emerge only when the parts interact in a wider whole. An emergent behavior or emergent property can appear when a number of simple entities (agents) operate in an environment, forming more complex behaviors as a collective. Source: Wikipedia",
-          "polarity": "BOTH"
+          "polarity": "BOTH",
+          "pajekIndex": 24
         },
         {
           "id": 4,
           "nodeLabel": "Urban studies",
           "nodeDescription": "Urban studies is based on the study of the urban development of cities. This includes studying the history of city development from an architectural point of view, to the impact of urban design on community development efforts. Urban studies helps with the understanding of human values, development, and the interactions they have with their physical environment. Source: Wikipedia",
-          "polarity": "BOTH"
+          "polarity": "BOTH",
+          "pajekIndex": 25
         },
         {
           "id": 5,
           "nodeLabel": "Environmental semantics",
           "nodeDescription": "The study of situated meaning as generated by action, signs, symbols, and their social connotations. Environmental semiotics focuses on how meaning is infered in the context of social action or conveyed by material objects of the built environment, as well as unbuilt cultural products.",
-          "polarity": "BOTH"
+          "polarity": "BOTH",
+          "pajekIndex": 26
         },
         {
           "id": 6,
           "nodeLabel": "Feminist studies",
           "nodeDescription": "[The] academic field that draws on feminist and interdisciplinary methods in order to place women’s lives and experiences at the center of study, while examining social and cultural constructs of gender; systems of privilege and oppression; and the relationships between power and gender as they intersect with other identities and social locations such as race, sexual orientation, socio-economic class, and disability. Source: Wikipedia",
-          "polarity": "BOTH"
+          "polarity": "BOTH",
+          "pajekIndex": 27
         },
         {
           "id": 7,
           "nodeLabel": "Game theory",
           "nodeDescription": "Game theory is the study of [...] models of strategic interaction in between rational decision-makers. It has applications in all fields of social science, as well as in logic and computer science. It is an umbrella term for the science of logical decision making in humans, animals, and computers. Source: Wikipedia",
-          "polarity": "BOTH"
+          "polarity": "BOTH",
+          "pajekIndex": 28
         },
         {
           "id": 8,
           "nodeLabel": "Grounded theory",
           "nodeDescription": "This research methodology uses inductive reasoning, in contrast to the hypothetico-deductive model of the scientific method. A grounded theory study is likely to begin with a question, or even just with the collection of qualitative data. As researchers review the data, repeated ideas, concepts or elements are grouped into concepts, and then into categories. These categories may become the basis for new theory. Source: Wikipedia",
-          "polarity": "BOTH"
+          "polarity": "BOTH",
+          "pajekIndex": 29
         },
         {
           "id": 9,
           "nodeLabel": "Posthumanism and Object Oriented Ontology",
           "nodeDescription": "Object-oriented ontology maintains that objects exist independently of human perception and are not ontologically exhausted by their relations with humans or other objects. For object-oriented ontologists, all relations, including those between nonhumans, distort their related objects in the same basic manner as human consciousness and exist on an equal footing with one another. Source: Wikipedia",
-          "polarity": "BOTH"
+          "polarity": "BOTH",
+          "pajekIndex": 30
         },
         {
           "id": 10,
           "nodeLabel": "Visual theory",
           "nodeDescription": "Visual Theory coalesced as a critical discourse in the late 1980s as an alternative to art historical discourses predicated on connoisseurship and biography. This literature synthesizes psychology (e.g. gestalt psychology; psychoanalysis) with semiotics (as developed in critical literary theory) in order to examine communication, representation, production, reception, and objecthood.",
-          "polarity": "BOTH"
+          "polarity": "BOTH",
+          "pajekIndex": 31
         },
         {
           "id": 11,
           "nodeLabel": "Psychoanalytic theory",
           "nodeDescription": "The theory of personality organization and the dynamics of personality development that guides psychoanalysis, a clinical method for treating psychopathology developed by Freud. Scholars of literary and visual culture have drawn on later psychoanalytical theories by Jacques Lacan to develop critical discourses on cognition, perception, communication, representation, and reception in words and images. Adapted from: Wikipedia",
-          "polarity": "BOTH"
+          "polarity": "BOTH",
+          "pajekIndex": 32
         }
       ]
     },
@@ -222,61 +254,71 @@
           "id": 0,
           "nodeLabel": "Participatory design",
           "nodeDescription": "It is an approach to design attempting to actively involve all stakeholders in the design process to help ensure the result meets their needs and is usable.",
-          "polarity": "LEFT"
+          "polarity": "LEFT",
+          "pajekIndex": 33
         },
         {
           "id": 1,
           "nodeLabel": "Empirical interventions",
           "nodeDescription": "Evidence based analysis, continuum of integrated policies, strategies, activities, and services whose effectiveness has been proven or informed by research and evaluation",
-          "polarity": "LEFT"
+          "polarity": "LEFT",
+          "pajekIndex": 34
         },
         {
           "id": 2,
           "nodeLabel": "Modeling and simulation",
           "nodeDescription": "The use of a physical or logical representation of a given system to generate data and help determine decisions or make predictions about the system",
-          "polarity": "LEFT"
+          "polarity": "LEFT",
+          "pajekIndex": 35
         },
         {
           "id": 3,
           "nodeLabel": "Interaction design",
           "nodeDescription": "The design of interactive products and services in which a designer's focus goes beyond the item in development to include the way users will interact with it",
-          "polarity": "LEFT"
+          "polarity": "LEFT",
+          "pajekIndex": 36
         },
         {
           "id": 4,
           "nodeLabel": "Visual and cultural studies",
           "nodeDescription": "Theorists working within contemporary culture often overlapping with traditional artistic media, digital media, and emerging media.",
-          "polarity": "LEFT"
+          "polarity": "LEFT",
+          "pajekIndex": 37
         },
         {
           "id": 5,
           "nodeLabel": "Information design",
           "nodeDescription": "Information design is the practice of presenting information in a way that fosters efficient and effective understanding of it. The term has come to be used specifically for graphic design for displaying information effectively, rather than just attractively or for artistic expression. Source: Wikipedia",
-          "polarity": "LEFT"
+          "polarity": "LEFT",
+          "pajekIndex": 38
         },
         {
           "id": 6,
           "nodeLabel": "Visual narratives",
           "nodeDescription": "A story told primarily through the use of visual media",
-          "polarity": "LEFT"
+          "polarity": "LEFT",
+          "pajekIndex": 39
         },
         {
           "id": 7,
           "nodeLabel": "Information visualization",
           "nodeDescription": "The process of representing data in a visual and meaningful way so that a user can better understand it.",
-          "polarity": "LEFT"
+          "polarity": "LEFT",
+          "pajekIndex": 40
         },
         {
           "id": 8,
           "nodeLabel": "Critical design",
           "nodeDescription": "Critical theory based approach to design, uses design fiction and speculative design proposals to challenge assumptions, conceptions about the role of objects play in everyday life.",
-          "polarity": "LEFT"
+          "polarity": "LEFT",
+          "pajekIndex": 41
         },
         {
           "id": 9,
           "nodeLabel": "Empathic design",
           "nodeDescription": "User-centered design approach that pays attention to the user's feelings toward a product.",
-          "polarity": "LEFT"
+          "polarity": "LEFT",
+          "pajekIndex": 42
         }
       ]
     }
