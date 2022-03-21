@@ -47,8 +47,7 @@
             <div class="col-sm-2" style='padding:3'>
                 <p style='font-size: 12px'><b>Modify the model</b>
                     <br>
-                    <button class="btn btn-default btn-xs btn-block" id="myBtn" data-toggle="modal"
-                        data-target="#addCategoryModal">Add category</button>
+                    <button class="btn btn-default btn-xs btn-block" id="myBtn" data-toggle="modal" data-target="#addCategoryModal">Add node</button>
 
                     <button class="btn btn-default btn-xs btn-block" id="clearEdges" name="clearEdgs">Clear
                         edges</button>
@@ -58,10 +57,8 @@
             <div class="col-sm-2">
                 <p style='font-size: 12px'><b>Diagram files</b>
                     <br>
-                    <button class="btn btn-default btn-xs btn-block" id="myBtn" data-toggle="modal"
-                        data-target="#exportNetworkModal">Export</button>
-                    <button class="btn btn-default btn-xs btn-block" id="myBtn" data-toggle="modal"
-                        data-target="#importNetworkModal">Import</button>
+                    <button class="btn btn-default btn-xs btn-block" id="myBtn" data-toggle="modal" data-target="#exportNetworkModal">Export</button>
+                    <button class="btn btn-default btn-xs btn-block" id="myBtn" data-toggle="modal" data-target="#importNetworkModal">Import</button>
                 </p>
             </div>
             <div class="col-sm-2">
@@ -80,10 +77,12 @@
                 <p style="margin-top:1px; margin-bottom: 1px; font-size:12px"><b>Library of models</b></p>
                 <select id="modelChoice" style="font-size:10px; color:grey;">
                     <!-- Empty DYI -->
-                    <option value="Empty">Empty model | DIY</option>
+                    <option value="Empty_2021" selected>Empty model | DIY (Version Jan 2021)</option>
+                    <option value="Empty_2020">Empty model | DIY (Version July 2020)</option>
+                    <option value="Empty_2019">Empty model | DIY (Version 2019)</option>
                     <!-- Master tracks -->
                     <option> * Master's tracks *</option>
-                    <option value="Sustainable" selected>Sustainable and regenerative design</option>
+                    <option value="Sustainable">Sustainable and regenerative design</option>
                     <option value="Urban">Urban sociology and critical race </option>
                     <option value="Visual">Visual and cultural studies</option>
                     <option value="Applied">Applied research in responsible innovation</option>
@@ -120,14 +119,10 @@
         </div>
 
         <div class="row">
+            <!-- PLACE HOLDER FOR THE MODEL -->
             <div id="model"></div>
             <div class="col-sm-12">
-                <p style="margin-left:20px; font-weight: normal; font-size: 12px"> Using multi-partite networks |
-                    University of Illinois at
-                    Urbana-Champaign |
-                    2019
-                    |
-                    Made with p5.js | Juan Salamanca, Contact: jsal@illinois.edu </p>
+                <p style="margin-left:20px; font-weight: normal; font-size: 12px"> Using bipartite networks | University of Illinois at Urbana-Champaign | 2019 | Made with p5.js | Juan Salamanca, Contact: jsal@illinois.edu </p>
             </div>
         </div>
 
@@ -135,59 +130,49 @@
 
 
     <!-- ADD CATEGORY MODAL FORM -->
-    <div class="modal fade" id="addCategoryModal" tabindex="-1" role="dialog" aria-labelledby="addCategoryModal"
-        aria-hidden="true">
+    <div class="modal fade" id="addCategoryModal" tabindex="-1" role="dialog" aria-labelledby="addCategoryModal" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h3 class="modal-title">Add a category to clusters</h3>
+                    <h3 class="modal-title">Add node to cluster</h3>
                 </div>
                 <div class="modal-body">
 
-                    <h4>Choose the cluster you want to add a category</h4>
+                    <h4>Choose the cluster you want to add a node</h4>
                     <form action="" id="clusterChoice">
                         <p>
-                            <input type="radio" name="cluster" value="0"> 1 Categories of Awarness
-                            <input type="radio" name="cluster" value="1"> 2 Topics of Concern
-                            <input type="radio" name="cluster" value="2"> 3 Modes of Inquiry
-                            <input type="radio" name="cluster" value="3"> 4 Methods of Design Action
+                            <input type="radio" name="cluster" value="0"> 1 Matters of Concern
+                            <input type="radio" name="cluster" value="1"> 2 Ethical Stakes
+                            <input type="radio" name="cluster" value="2"> 3 Research Methodologies
+                            <input type="radio" name="cluster" value="3"> 4 Design modes + Methods
                         </p>
                     </form>
                     <hr>
-                    <h4>Category name</h4>
-                    <p>The categories in each cluster are <b> mutually exlusive</b>. Verify that none of the current
-                        categories
-                        encompass the category you inted to add </p>
-                    <input id="catName" value="Category name"></input>
+                    <h4>Node name</h4>
+                    <p>The nodes in each cluster are <b> mutually exlusive</b>. Verify that none of the current nodes encompasses the node you inted to add </p>
+                    <input id="catName" value="Node name"></input>
                     <hr>
 
-                    <h4>Category description</h4>
-                    <p>Describe briefly the content of the new category. Give credits to third parties if any. </p>
-                    <textarea class="form-control" rows="5" id="catDescription">Category description</textarea>
+                    <h4>Node description</h4>
+                    <p>Describe briefly the content of the new node. Give credits to third parties if any. </p>
+                    <textarea class="form-control" rows="5" id="catDescription">Node description</textarea>
                     <hr>
                     <h4>Polarity</h4>
-                    <p>The polarity of a category enables it to connect with categories from the adjacent clusters. The
-                        boxes
-                        below
-                        create connectors on either the left,
-                        right or on both sides of the category. Connectors from one category can only be connected to
-                        connectors
-                        attached to categories in adjacent clusters with opposite polarity.</p>
+                    <p>The polarity of a node enables it to connect with nodes from the adjacent clusters. The boxes below create connectors on either the left, right or on both sides of the node. Connectors from one node can only be connected to connectors
+                        attached to nodes in adjacent clusters with opposite polarity.</p>
                     <input type='checkbox' id="negative" checked> negative (enable left connectors)</input> <br>
                     <input type='checkbox' id="positive" checked> positive (enable right connectors)</input>
 
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-primary" data-dismiss="modal"
-                        id="SubmitAddCategoryModal">Submit</button>
+                    <button type="button" class="btn btn-primary" data-dismiss="modal" id="SubmitAddCategoryModal">Submit</button>
                 </div>
             </div>
         </div>
     </div>
 
     <!-- EXPORT NETWORK MODAL FORM -->
-    <div class="modal fade" id="exportNetworkModal" tabindex="-1" role="dialog" aria-labelledby="exportNetworkModal"
-        aria-hidden="true">
+    <div class="modal fade" id="exportNetworkModal" tabindex="-1" role="dialog" aria-labelledby="exportNetworkModal" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -200,7 +185,6 @@
                     <input type='checkbox' id="includeEdges" checked> Include edges</input>
                     <hr>-->
                     <input id="exportFileSuffix" value="File name"></input>
-                    <p>This is the sufix of two separate files, one for nodes and one for edges</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-primary" data-dismiss="modal" id="exportNetwork">Export
@@ -211,8 +195,7 @@
     </div>
 
     <!-- IMPORT NETWORK MODAL FORM -->
-    <div class="modal fade" id="importNetworkModal" tabindex="-1" role="dialog" aria-labelledby="importNetworkModal"
-        aria-hidden="true">
+    <div class="modal fade" id="importNetworkModal" tabindex="-1" role="dialog" aria-labelledby="importNetworkModal" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -226,7 +209,7 @@
                             padding: 50px 0;
                             text-align: center;
                         }
-
+                        
                         .droppable.dragover {
                             background: #00CC71;
                         }
